@@ -73,7 +73,7 @@ header p {
     margin-top: 2rem;
 }
 
-#pdf-btn, #print-btn {
+#pdf-btn, #print-btn, #website-btn {
     background: linear-gradient(135deg, #667eea, #764ba2);
     color: #fff;
     border: none;
@@ -86,7 +86,7 @@ header p {
     font-weight: 600;
 }
 
-#pdf-btn:hover, #print-btn:hover {
+#pdf-btn:hover, #print-btn:hover, #website-btn:hover {
     background: linear-gradient(135deg, #764ba2, #667eea);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
@@ -279,7 +279,7 @@ footer {
         display: none !important;
     }
 
-    #pdf-btn, #print-btn {
+    #pdf-btn, #print-btn, #website-btn {
         display: none !important;
     }
 

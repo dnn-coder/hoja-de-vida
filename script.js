@@ -14,3 +14,8 @@ document.getElementById('pdf-btn').addEventListener('click', function() {
 document.getElementById('print-btn').addEventListener('click', function() {
     window.print();
 });
+
+document.getElementById('website-btn').addEventListener('click', function() {
+    // Redirect to portfolio website
+    window.open('https://portfolio-danny-vivas.netlify.app/', '_blank');
+});
