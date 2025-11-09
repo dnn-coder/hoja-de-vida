@@ -185,6 +185,78 @@ li {
     }
 }
 
+footer {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
+    padding: 3rem 2rem 2rem 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-link.github:hover {
+    background: #333;
+}
+
+.social-link.linkedin:hover {
+    background: #0077b5;
+}
+
+.social-link.portfolio:hover {
+    background: #667eea;
+}
+
+.social-link.netlify:hover {
+    background: #00ad9f;
+}
+
+.social-link.vercel:hover {
+    background: #000;
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        gap: 1rem;
+    }
+
+    .social-link {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
 @media print {
     body {
         background-color: #fff !important;
@@ -203,7 +275,11 @@ li {
         background: #fff !important;
     }
 
-    #print-btn {
+    footer {
+        display: none !important;
+    }
+
+    #pdf-btn, #print-btn {
         display: none !important;
     }
 

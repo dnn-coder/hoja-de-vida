@@ -1,0 +1,19 @@
+# Archivos PDF con datos personales
+pdf/*.pdf
+
+# Otros archivos sensibles
+*.pdf
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Directorios de node_modules si usas npm
+node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
